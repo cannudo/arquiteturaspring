@@ -35,6 +35,17 @@ public class Motor {
         return litragem;
     }
 
+    @Override
+    public String toString() {
+        return "Motor{" +
+                "modelo='" + modelo + '\'' +
+                ", cavalos=" + cavalos +
+                ", cilindros=" + cilindros +
+                ", litragem=" + litragem +
+                ", tipo=" + tipo +
+                '}';
+    }
+
     public void setLitragem(Double litragem) {
         this.litragem = litragem;
     }
