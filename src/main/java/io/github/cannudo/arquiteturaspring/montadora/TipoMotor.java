@@ -1,4 +1,4 @@
-package io.github.cannudo.arquiteturaspring;
+package io.github.cannudo.arquiteturaspring.montadora;
 
 public enum TipoMotor {
     ASPIRADO,
